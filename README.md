@@ -16,8 +16,6 @@
 4. Đoàn Anh Tuấn – 052205012309
 5. Đoàn Thị Yến – 052305013558
 
----
-
 ## I. Description
 
 ### 1. Introduction
@@ -37,8 +35,6 @@ If offline, messages can still be sent and will automatically sync when reconnec
 📎 **Asynchronous File Sending**
 Users can send attachments such as documents, images, and audio files asynchronously.
 
----
-
 ### 3. Feature Demo
 
 #### **Login Screen**
@@ -51,8 +47,6 @@ Users can send attachments such as documents, images, and audio files asynchrono
 
 <img width="922" height="939" alt="Chat" src="https://github.com/user-attachments/assets/2d46d3ac-b9ee-4897-956b-8fcddceb7a73" />
 
----
-
 ## II. Technologies Used
 
 ### 🔧 Back-end
@@ -64,8 +58,6 @@ Users can send attachments such as documents, images, and audio files asynchrono
 
 1. **Vue.js 3** – Modern reactive JavaScript framework
 2. **Ant Design Vue** – Rich UI component library for elegant interfaces
-
----
 
 ## III. Installation Guide
 
@@ -96,7 +88,6 @@ Run development server:
 ```
 npm run dev
 ```
-
 ---
 
 # Tiếng Việt
@@ -112,8 +103,6 @@ npm run dev
 3. Đặng Huỳnh Trà My – 052305011719
 4. Đoàn Anh Tuấn – 052205012309
 5. Đoàn Thị Yến – 052305013558
-
----
 
 ## I. Mô tả
 
@@ -134,8 +123,6 @@ Khi offline vẫn có thể gửi tin — tin nhắn sẽ tự động đồng b
 📎 **Gửi tệp bất đồng bộ**
 Cho phép gửi tài liệu, hình ảnh, âm thanh... một cách bất đồng bộ.
 
----
-
 ### 3. Demo tính năng
 
 #### **Màn hình đăng nhập**
@@ -148,8 +135,6 @@ Cho phép gửi tài liệu, hình ảnh, âm thanh... một cách bất đồng
 
 <img width="922" height="939" alt="Chat" src="https://github.com/user-attachments/assets/2d46d3ac-b9ee-4897-956b-8fcddceb7a73" />
 
----
-
 ## II. Công nghệ sử dụng
 
 ### 🔧 Back-end
@@ -161,8 +146,6 @@ Cho phép gửi tài liệu, hình ảnh, âm thanh... một cách bất đồng
 
 1. **VueJs 3** – Framework JavaScript hiện đại
 2. **Ant Design Vue** – Bộ UI nhiều thành phần mạnh mẽ
-
----
 
 ## III. Hướng dẫn cài đặt
 
@@ -193,6 +176,3 @@ Chạy chương trình:
 ```
 npm run dev
 ```
-
----
-
