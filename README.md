@@ -1,0 +1,208 @@
+# [English](#english) | [Tiếng Việt](#tiếng-việt)
+
+---
+
+# English
+
+# 📨 Real-time Chat Application – Group 09
+
+### **Networking Programming – Final Project**
+
+## 👥 Team Members
+
+1. Nguyễn Thị Thảo Thương – 052305001437
+2. Nguyễn Minh Trí – 052205013468
+3. Đặng Huỳnh Trà My – 052305011719
+4. Đoàn Anh Tuấn – 052205012309
+5. Đoàn Thị Yến – 052305013558
+
+---
+
+## I. Description
+
+### 1. Introduction
+
+The **Real-time Chat Application** allows users to communicate instantly through text messages, images, and file attachments.
+Built with modern web technologies, the app provides a smooth and responsive chatting experience without needing to refresh the page.
+
+### 2. Key Features
+
+✨ **Login & Registration**
+Users can log in with username/password or create a new account.
+
+⚡ **Real-time Messaging**
+All messages are synced instantly.
+If offline, messages can still be sent and will automatically sync when reconnected.
+
+📎 **Asynchronous File Sending**
+Users can send attachments such as documents, images, and audio files asynchronously.
+
+---
+
+### 3. Feature Demo
+
+#### **Login Screen**
+
+![Login](image.png)
+
+#### **Chatspace Interface**
+
+![Chatspace](image-1.png)
+
+#### **Asynchronous File Sending**
+
+![sendfile](sendfile1.png)
+![sendfile](sendfile2.png)
+![sendfile](sendfile3.png)
+![sendfile](gửi%20file.png)
+
+---
+
+## II. Technologies Used
+
+### 🔧 Back-end
+
+1. **FastAPI** – High-performance Python framework
+2. **MongoDB** – NoSQL database for scalability
+
+### 🎨 Front-end
+
+1. **Vue.js 3** – Modern reactive JavaScript framework
+2. **Ant Design Vue** – Rich UI component library for elegant interfaces
+
+---
+
+## III. Installation Guide
+
+### 🔧 Back-end
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+Run server:
+
+```
+uvicorn main:app --reload
+```
+
+### 🎨 Front-end
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run development server:
+
+```
+npm run dev
+```
+
+---
+
+# Tiếng Việt
+
+# 📨 Ứng dụng Chat Realtime – Nhóm 09
+
+### **Bài tập lớn môn Lập trình mạng**
+
+## 👥 Danh sách thành viên
+
+1. Nguyễn Thị Thảo Thương – 052305001437
+2. Nguyễn Minh Trí – 052205013468
+3. Đặng Huỳnh Trà My – 052305011719
+4. Đoàn Anh Tuấn – 052205012309
+5. Đoàn Thị Yến – 052305013558
+
+---
+
+## I. Mô tả
+
+### 1. Giới thiệu
+
+**Ứng dụng Chat Realtime** cho phép người dùng nhắn tin, gửi hình ảnh và tệp đính kèm theo thời gian thực.
+Ứng dụng được xây dựng nhằm mang lại trải nghiệm trò chuyện mượt mà, nhanh chóng, không cần tải lại trang.
+
+### 2. Các tính năng chính
+
+✨ **Đăng nhập & Đăng ký**
+Người dùng có thể đăng nhập bằng tài khoản hoặc tạo tài khoản mới.
+
+⚡ **Trò chuyện Real-time**
+Tin nhắn được đồng bộ ngay lập tức.
+Khi offline vẫn có thể gửi tin — tin nhắn sẽ tự động đồng bộ khi có mạng trở lại.
+
+📎 **Gửi tệp bất đồng bộ**
+Cho phép gửi tài liệu, hình ảnh, âm thanh... một cách bất đồng bộ.
+
+---
+
+### 3. Demo tính năng
+
+#### **Màn hình đăng nhập**
+
+![Login](image.png)
+
+#### **Giao diện Chatspace**
+
+![Chatspace](image-1.png)
+
+#### **Gửi file bất đồng bộ**
+
+![sendfile](sendfile1.png)
+![sendfile](sendfile2.png)
+![sendfile](sendfile3.png)
+![sendfile](gửi%20file.png)
+
+---
+
+## II. Công nghệ sử dụng
+
+### 🔧 Back-end
+
+1. **FastAPI** – Framework Python hiệu năng cao
+2. **MongoDB** – Cơ sở dữ liệu NoSQL linh hoạt
+
+### 🎨 Front-end
+
+1. **VueJs 3** – Framework JavaScript hiện đại
+2. **Ant Design Vue** – Bộ UI nhiều thành phần mạnh mẽ
+
+---
+
+## III. Hướng dẫn cài đặt
+
+### 🔧 Back-end
+
+Cài thư viện:
+
+```
+pip install -r requirements.txt
+```
+
+Chạy server:
+
+```
+uvicorn main:app --reload
+```
+
+### 🎨 Front-end
+
+Cài thư viện:
+
+```
+npm install
+```
+
+Chạy chương trình:
+
+```
+npm run dev
+```
+
+---
+
