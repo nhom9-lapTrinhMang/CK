@@ -1,4 +1,4 @@
-# [English](#english) | [Tiếng Việt](#tiếng-việt)
+[English](#english) | [Tiếng Việt](#tiếng-việt)
 
 ---
 
