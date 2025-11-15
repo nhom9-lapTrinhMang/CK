@@ -43,11 +43,13 @@ Users can send attachments such as documents, images, and audio files asynchrono
 
 #### **Login Screen**
 
-![Login](image.png)
+<img width="924" height="937" alt="Login" src="https://github.com/user-attachments/assets/2dc93513-ddc3-451b-9d15-b09b5b45c5e4" />
+
+<img width="930" height="939" alt="Login_1" src="https://github.com/user-attachments/assets/d81f2ef0-bd33-4add-943c-c4c3f455ac8f" />
 
 #### **Chatspace Interface**
 
-![Chatspace](image-1.png)
+<img width="922" height="939" alt="Chat" src="https://github.com/user-attachments/assets/2d46d3ac-b9ee-4897-956b-8fcddceb7a73" />
 
 ---
 
@@ -144,9 +146,7 @@ Cho phép gửi tài liệu, hình ảnh, âm thanh... một cách bất đồng
 
 #### **Giao diện Chatspace**
 
-
 <img width="922" height="939" alt="Chat" src="https://github.com/user-attachments/assets/2d46d3ac-b9ee-4897-956b-8fcddceb7a73" />
-
 
 ---
 
