@@ -1,0 +1,77 @@
+import tkinter as tk
+from tkinter import ttk
+from datetime import datetime
+import threading
+import time
+
+
+class ChatGUI:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Chat Application")
+
+ 
+        self.root.columnconfigure(0, weight=1)
+        self.root.columnconfigure(1, weight=4)
+        self.root.rowconfigure(0, weight=1)
+        self.root.rowconfigure(1, weight=0)
+
+        self.user_frame = ttk.Frame(self.root, padding=5)
+        self.user_frame.grid(row=0, column=0, sticky="nsew")
+
+        ttk.Label(self.user_frame, text="Danh sách user").pack(anchor="w")
+
+        self.user_list = tk.Listbox(self.user_frame, height=20)
+        self.user_list.pack(fill="both", expand=True)
+
+        
+        for u in ["Admin", "User A", "User B", "Server Bot"]:
+            self.user_list.insert(tk.END, u)
+
+        
+        self.chat_frame = ttk.Frame(self.root, padding=5)
+        self.chat_frame.grid(row=0, column=1, sticky="nsew")
+
+        self.chat_display = tk.Text(self.chat_frame, wrap="word")
+        self.chat_display.pack(fill="both", expand=True)
+
+       
+        scroll = ttk.Scrollbar(self.chat_frame, command=self.chat_display.yview)
+        self.chat_display.configure(yscrollcommand=scroll.set)
+        scroll.pack(side="right", fill="y")
+
+     
+        self.entry_frame = ttk.Frame(self.root)
+        self.entry_frame.grid(row=1, column=1, sticky="ew", pady=5)
+
+        self.msg_entry = ttk.Entry(self.entry_frame)
+        self.msg_entry.pack(side="left", fill="x", expand=True, padx=(0, 5))
+        self.msg_entry.bind("<Return>", self.send_message)
+
+        self.send_btn = ttk.Button(self.entry_frame, text="Gửi", command=self.send_message)
+        self.send_btn.pack(side="right")
+
+        threading.Thread(target=self.fake_server_messages, daemon=True).start()
+
+    def send_message(self, event=None):
+        msg = self.msg_entry.get().strip()
+        if msg == "":
+            return
+        timestamp = datetime.now().strftime("%H:%M:%S")
+        self.chat_display.insert(tk.END, f"[Bạn - {timestamp}]: {msg}\n")
+        self.chat_display.see(tk.END)
+        self.msg_entry.delete(0, tk.END)
+
+    def fake_server_messages(self):
+        while True:
+            time.sleep(5)
+            timestamp = datetime.now().strftime("%H:%M:%S")
+            server_msg = f"[Server - {timestamp}]: Đây là tin nhắn tự động.\n"
+            self.chat_display.insert(tk.END, server_msg)
+            self.chat_display.see(tk.END)
+
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = ChatGUI(root)
+    root.mainloop()
